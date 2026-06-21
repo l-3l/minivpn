@@ -1,0 +1,2265 @@
+   3.661842100s  INFO prepare_target{force=false package_id=minivpn v0.1.0 (\\wsl$\Ubuntu\home\lll\minivpn) target="minivpn"}: cargo::core::compiler::fingerprint: fingerprint error for minivpn v0.1.0 (\\wsl$\Ubuntu\home\lll\minivpn)/Check { test: false }/TargetInner { name: "minivpn", doc: true, ..: with_path("\\\\wsl$\\Ubuntu\\home\\lll\\minivpn\\src\\main.rs", Edition2021) }
+   3.661929200s  INFO prepare_target{force=false package_id=minivpn v0.1.0 (\\wsl$\Ubuntu\home\lll\minivpn) target="minivpn"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\minivpn-5accb1582485ed28\bin-minivpn`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   3.709175700s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="anyhow"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/Check { test: false }/TargetInner { ..: lib_target("anyhow", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\src\\lib.rs", Edition2021) }
+   3.710023000s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="anyhow"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\anyhow-db85ef2021a4376f\lib-anyhow`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   3.815603900s  INFO prepare_target{force=false package_id=clap v4.6.1 target="clap"}: cargo::core::compiler::fingerprint: fingerprint error for clap v4.6.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap-4.6.1\\src\\lib.rs", Edition2024) }
+   3.815671200s  INFO prepare_target{force=false package_id=clap v4.6.1 target="clap"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\clap-31944a265b0f253b\lib-clap`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   3.824436800s  INFO prepare_target{force=false package_id=clap_builder v4.6.0 target="clap_builder"}: cargo::core::compiler::fingerprint: fingerprint error for clap_builder v4.6.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_builder", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap_builder-4.6.0\\src\\lib.rs", Edition2024) }
+   3.824511700s  INFO prepare_target{force=false package_id=clap_builder v4.6.0 target="clap_builder"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\clap_builder-81ebc9673fa63702\lib-clap_builder`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   3.832434600s  INFO prepare_target{force=false package_id=anstream v1.0.0 target="anstream"}: cargo::core::compiler::fingerprint: fingerprint error for anstream v1.0.0/Check { test: false }/TargetInner { ..: lib_target("anstream", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstream-1.0.0\\src\\lib.rs", Edition2021) }
+   3.832493900s  INFO prepare_target{force=false package_id=anstream v1.0.0 target="anstream"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\anstream-4e111d9c3fe46f86\lib-anstream`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   3.840278500s  INFO prepare_target{force=false package_id=anstyle v1.0.14 target="anstyle"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle v1.0.14/Check { test: false }/TargetInner { ..: lib_target("anstyle", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-1.0.14\\src\\lib.rs", Edition2021) }
+   3.840337100s  INFO prepare_target{force=false package_id=anstyle v1.0.14 target="anstyle"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\anstyle-8420b6417e261cbd\lib-anstyle`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   3.848807200s  INFO prepare_target{force=false package_id=anstyle-parse v1.0.0 target="anstyle_parse"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle-parse v1.0.0/Check { test: false }/TargetInner { ..: lib_target("anstyle_parse", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-parse-1.0.0\\src\\lib.rs", Edition2021) }
+   3.848860800s  INFO prepare_target{force=false package_id=anstyle-parse v1.0.0 target="anstyle_parse"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\anstyle-parse-5c2fac0cb9b35d36\lib-anstyle_parse`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   3.856247200s  INFO prepare_target{force=false package_id=utf8parse v0.2.2 target="utf8parse"}: cargo::core::compiler::fingerprint: fingerprint error for utf8parse v0.2.2/Check { test: false }/TargetInner { ..: lib_target("utf8parse", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\utf8parse-0.2.2\\src\\lib.rs", Edition2018) }
+   3.856345300s  INFO prepare_target{force=false package_id=utf8parse v0.2.2 target="utf8parse"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\utf8parse-46f71c82dab93346\lib-utf8parse`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   3.867704400s  INFO prepare_target{force=false package_id=anstyle-query v1.1.5 target="anstyle_query"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle-query v1.1.5/Check { test: false }/TargetInner { ..: lib_target("anstyle_query", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-query-1.1.5\\src\\lib.rs", Edition2021) }
+   3.867852200s  INFO prepare_target{force=false package_id=anstyle-query v1.1.5 target="anstyle_query"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\anstyle-query-3b9406fd79b25bcc\lib-anstyle_query`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   3.876180000s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint: fingerprint error for windows-sys v0.61.2/Check { test: false }/TargetInner { tested: false, doctest: false, ..: lib_target("windows_sys", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-sys-0.61.2\\src\\lib.rs", Edition2021) }
+   3.876259000s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\windows-sys-6795f7f4b2bef7e0\lib-windows_sys`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   3.882733600s  INFO prepare_target{force=false package_id=windows-link v0.2.1 target="windows_link"}: cargo::core::compiler::fingerprint: fingerprint error for windows-link v0.2.1/Check { test: false }/TargetInner { ..: lib_target("windows_link", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-link-0.2.1\\src\\lib.rs", Edition2021) }
+   3.882790300s  INFO prepare_target{force=false package_id=windows-link v0.2.1 target="windows_link"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\windows-link-f20c8d64b953bdfa\lib-windows_link`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   3.889447400s  INFO prepare_target{force=false package_id=anstyle-wincon v3.0.11 target="anstyle_wincon"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle-wincon v3.0.11/Check { test: false }/TargetInner { ..: lib_target("anstyle_wincon", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-wincon-3.0.11\\src\\lib.rs", Edition2021) }
+   3.889516800s  INFO prepare_target{force=false package_id=anstyle-wincon v3.0.11 target="anstyle_wincon"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\anstyle-wincon-556539c8454f658a\lib-anstyle_wincon`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   3.898194000s  INFO prepare_target{force=false package_id=once_cell_polyfill v1.70.2 target="once_cell_polyfill"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell_polyfill v1.70.2/Check { test: false }/TargetInner { ..: lib_target("once_cell_polyfill", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell_polyfill-1.70.2\\src\\lib.rs", Edition2021) }
+   3.898240400s  INFO prepare_target{force=false package_id=once_cell_polyfill v1.70.2 target="once_cell_polyfill"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\once_cell_polyfill-9ad28f1d7512fc3d\lib-once_cell_polyfill`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   3.905698900s  INFO prepare_target{force=false package_id=colorchoice v1.0.5 target="colorchoice"}: cargo::core::compiler::fingerprint: fingerprint error for colorchoice v1.0.5/Check { test: false }/TargetInner { ..: lib_target("colorchoice", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\colorchoice-1.0.5\\src\\lib.rs", Edition2021) }
+   3.905765800s  INFO prepare_target{force=false package_id=colorchoice v1.0.5 target="colorchoice"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\colorchoice-703748e288d8f9ae\lib-colorchoice`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   3.913040600s  INFO prepare_target{force=false package_id=is_terminal_polyfill v1.70.2 target="is_terminal_polyfill"}: cargo::core::compiler::fingerprint: fingerprint error for is_terminal_polyfill v1.70.2/Check { test: false }/TargetInner { ..: lib_target("is_terminal_polyfill", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\is_terminal_polyfill-1.70.2\\src\\lib.rs", Edition2021) }
+   3.913089800s  INFO prepare_target{force=false package_id=is_terminal_polyfill v1.70.2 target="is_terminal_polyfill"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\is_terminal_polyfill-2d844eefe1b36e62\lib-is_terminal_polyfill`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   3.919321800s  INFO prepare_target{force=false package_id=clap_lex v1.1.0 target="clap_lex"}: cargo::core::compiler::fingerprint: fingerprint error for clap_lex v1.1.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_lex", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap_lex-1.1.0\\src\\lib.rs", Edition2024) }
+   3.919552300s  INFO prepare_target{force=false package_id=clap_lex v1.1.0 target="clap_lex"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\clap_lex-e4a48b8f87dce1b7\lib-clap_lex`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   3.926229300s  INFO prepare_target{force=false package_id=strsim v0.11.1 target="strsim"}: cargo::core::compiler::fingerprint: fingerprint error for strsim v0.11.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("strsim", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\strsim-0.11.1\\src\\lib.rs", Edition2015) }
+   3.926317900s  INFO prepare_target{force=false package_id=strsim v0.11.1 target="strsim"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\strsim-dd9d7662812852e7\lib-strsim`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   4.736972600s  INFO prepare_target{force=false package_id=env_logger v0.11.10 target="env_logger"}: cargo::core::compiler::fingerprint: fingerprint error for env_logger v0.11.10/Check { test: false }/TargetInner { ..: lib_target("env_logger", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\env_logger-0.11.10\\src\\lib.rs", Edition2021) }
+   4.737085800s  INFO prepare_target{force=false package_id=env_logger v0.11.10 target="env_logger"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\env_logger-18370d13db3c28b8\lib-env_logger`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   4.744173300s  INFO prepare_target{force=false package_id=env_filter v1.0.1 target="env_filter"}: cargo::core::compiler::fingerprint: fingerprint error for env_filter v1.0.1/Check { test: false }/TargetInner { ..: lib_target("env_filter", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\env_filter-1.0.1\\src\\lib.rs", Edition2021) }
+   4.744327200s  INFO prepare_target{force=false package_id=env_filter v1.0.1 target="env_filter"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\env_filter-98a922ec1bf6525c\lib-env_filter`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   4.753098600s  INFO prepare_target{force=false package_id=log v0.4.32 target="log"}: cargo::core::compiler::fingerprint: fingerprint error for log v0.4.32/Check { test: false }/TargetInner { ..: lib_target("log", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\log-0.4.32\\src\\lib.rs", Edition2021) }
+   4.753227600s  INFO prepare_target{force=false package_id=log v0.4.32 target="log"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\log-f56823c7f052d1db\lib-log`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   4.760200100s  INFO prepare_target{force=false package_id=regex v1.12.4 target="regex"}: cargo::core::compiler::fingerprint: fingerprint error for regex v1.12.4/Check { test: false }/TargetInner { ..: lib_target("regex", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-1.12.4\\src\\lib.rs", Edition2021) }
+   4.760255800s  INFO prepare_target{force=false package_id=regex v1.12.4 target="regex"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\regex-a7f98debf46b695a\lib-regex`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   4.767041400s  INFO prepare_target{force=false package_id=aho-corasick v1.1.4 target="aho_corasick"}: cargo::core::compiler::fingerprint: fingerprint error for aho-corasick v1.1.4/Check { test: false }/TargetInner { ..: lib_target("aho_corasick", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aho-corasick-1.1.4\\src\\lib.rs", Edition2021) }
+   4.767093000s  INFO prepare_target{force=false package_id=aho-corasick v1.1.4 target="aho_corasick"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\aho-corasick-d968f552faae68ba\lib-aho_corasick`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   4.785219800s  INFO prepare_target{force=false package_id=memchr v2.8.2 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint error for memchr v2.8.2/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memchr-2.8.2\\src\\lib.rs", Edition2021) }
+   4.785295600s  INFO prepare_target{force=false package_id=memchr v2.8.2 target="memchr"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\memchr-5ebdedde7c4ac4ec\lib-memchr`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   4.793364600s  INFO prepare_target{force=false package_id=regex-automata v0.4.14 target="regex_automata"}: cargo::core::compiler::fingerprint: fingerprint error for regex-automata v0.4.14/Check { test: false }/TargetInner { benched: false, ..: lib_target("regex_automata", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-automata-0.4.14\\src\\lib.rs", Edition2021) }
+   4.793420200s  INFO prepare_target{force=false package_id=regex-automata v0.4.14 target="regex_automata"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\regex-automata-bdbf95dfe230aa85\lib-regex_automata`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   4.803396100s  INFO prepare_target{force=false package_id=regex-syntax v0.8.11 target="regex_syntax"}: cargo::core::compiler::fingerprint: fingerprint error for regex-syntax v0.8.11/Check { test: false }/TargetInner { ..: lib_target("regex_syntax", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-syntax-0.8.11\\src\\lib.rs", Edition2021) }
+   4.803469000s  INFO prepare_target{force=false package_id=regex-syntax v0.8.11 target="regex_syntax"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\regex-syntax-ede5f411b398464d\lib-regex_syntax`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   4.817827700s  INFO prepare_target{force=false package_id=jiff v0.2.28 target="jiff"}: cargo::core::compiler::fingerprint: fingerprint error for jiff v0.2.28/Check { test: false }/TargetInner { ..: lib_target("jiff", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\jiff-0.2.28\\src\\lib.rs", Edition2021) }
+   4.818145600s  INFO prepare_target{force=false package_id=jiff v0.2.28 target="jiff"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\jiff-f09962df40440694\lib-jiff`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   4.828336200s  INFO prepare_target{force=false package_id=etherparse v0.13.0 target="etherparse"}: cargo::core::compiler::fingerprint: fingerprint error for etherparse v0.13.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("etherparse", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\etherparse-0.13.0\\src\\lib.rs", Edition2018) }
+   4.828402500s  INFO prepare_target{force=false package_id=etherparse v0.13.0 target="etherparse"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\etherparse-e6c8fd9c814f9c9a\lib-etherparse`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   4.837617900s  INFO prepare_target{force=false package_id=arrayvec v0.7.6 target="arrayvec"}: cargo::core::compiler::fingerprint: fingerprint error for arrayvec v0.7.6/Check { test: false }/TargetInner { ..: lib_target("arrayvec", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\arrayvec-0.7.6\\src\\lib.rs", Edition2018) }
+   4.837718700s  INFO prepare_target{force=false package_id=arrayvec v0.7.6 target="arrayvec"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\arrayvec-584027811340304f\lib-arrayvec`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   4.847868800s  INFO prepare_target{force=false package_id=libc v0.2.186 target="libc"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.186/Check { test: false }/TargetInner { ..: lib_target("libc", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.186\\src\\lib.rs", Edition2021) }
+   4.847927000s  INFO prepare_target{force=false package_id=libc v0.2.186 target="libc"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\libc-56e0348b1e83b21f\lib-libc`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   5.047711700s  INFO prepare_target{force=false package_id=rustls v0.23.40 target="rustls"}: cargo::core::compiler::fingerprint: fingerprint error for rustls v0.23.40/Check { test: false }/TargetInner { ..: lib_target("rustls", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rustls-0.23.40\\src\\lib.rs", Edition2021) }
+   5.047774300s  INFO prepare_target{force=false package_id=rustls v0.23.40 target="rustls"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\rustls-487ed1a6e7642a12\lib-rustls`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   5.055825400s  INFO prepare_target{force=false package_id=aws-lc-rs v1.17.0 target="aws_lc_rs"}: cargo::core::compiler::fingerprint: fingerprint error for aws-lc-rs v1.17.0/Check { test: false }/TargetInner { ..: lib_target("aws_lc_rs", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-rs-1.17.0\\src\\lib.rs", Edition2021) }
+   5.055881000s  INFO prepare_target{force=false package_id=aws-lc-rs v1.17.0 target="aws_lc_rs"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\aws-lc-rs-391a2f5efb135102\lib-aws_lc_rs`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   6.458866900s  INFO prepare_target{force=false package_id=aws-lc-sys v0.41.0 target="aws_lc_sys"}: cargo::core::compiler::fingerprint: fingerprint error for aws-lc-sys v0.41.0/Check { test: false }/TargetInner { ..: lib_target("aws_lc_sys", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.41.0\\src\\lib.rs", Edition2021) }
+   6.458922200s  INFO prepare_target{force=false package_id=aws-lc-sys v0.41.0 target="aws_lc_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\aws-lc-sys-fed8b4d7751f028d\lib-aws_lc_sys`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   6.463449400s  INFO prepare_target{force=false package_id=zeroize v1.9.0 target="zeroize"}: cargo::core::compiler::fingerprint: fingerprint error for zeroize v1.9.0/Check { test: false }/TargetInner { ..: lib_target("zeroize", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeroize-1.9.0\\src\\lib.rs", Edition2024) }
+   6.463508200s  INFO prepare_target{force=false package_id=zeroize v1.9.0 target="zeroize"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\zeroize-87deb15ddbfbe62e\lib-zeroize`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   6.470897800s  INFO prepare_target{force=false package_id=once_cell v1.21.4 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.4/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.4\\src\\lib.rs", Edition2021) }
+   6.470950300s  INFO prepare_target{force=false package_id=once_cell v1.21.4 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\once_cell-aa89c5dd965e8790\lib-once_cell`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   6.671506200s  INFO prepare_target{force=false package_id=rustls-pki-types v1.14.1 target="rustls_pki_types"}: cargo::core::compiler::fingerprint: fingerprint error for rustls-pki-types v1.14.1/Check { test: false }/TargetInner { ..: lib_target("rustls_pki_types", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rustls-pki-types-1.14.1\\src\\lib.rs", Edition2021) }
+   6.671574100s  INFO prepare_target{force=false package_id=rustls-pki-types v1.14.1 target="rustls_pki_types"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\rustls-pki-types-0ed6dc82462245bc\lib-rustls_pki_types`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   6.678533300s  INFO prepare_target{force=false package_id=rustls-webpki v0.103.13 target="webpki"}: cargo::core::compiler::fingerprint: fingerprint error for rustls-webpki v0.103.13/Check { test: false }/TargetInner { ..: lib_target("webpki", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rustls-webpki-0.103.13\\src\\lib.rs", Edition2021) }
+   6.678623100s  INFO prepare_target{force=false package_id=rustls-webpki v0.103.13 target="webpki"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\rustls-webpki-ef922e725e45012d\lib-webpki`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   6.686789200s  INFO prepare_target{force=false package_id=untrusted v0.9.0 target="untrusted"}: cargo::core::compiler::fingerprint: fingerprint error for untrusted v0.9.0/Check { test: false }/TargetInner { ..: lib_target("untrusted", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\untrusted-0.9.0\\src\\lib.rs", Edition2018) }
+   6.686850300s  INFO prepare_target{force=false package_id=untrusted v0.9.0 target="untrusted"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\untrusted-432dd3b69ee68de9\lib-untrusted`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   6.693311500s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint: fingerprint error for subtle v2.6.1/Check { test: false }/TargetInner { ..: lib_target("subtle", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\subtle-2.6.1\\src\\lib.rs", Edition2018) }
+   6.693365600s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\subtle-1c6fad40dc25706f\lib-subtle`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   6.701536600s  INFO prepare_target{force=false package_id=rustls-pemfile v2.2.0 target="rustls_pemfile"}: cargo::core::compiler::fingerprint: fingerprint error for rustls-pemfile v2.2.0/Check { test: false }/TargetInner { ..: lib_target("rustls_pemfile", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rustls-pemfile-2.2.0\\src\\lib.rs", Edition2018) }
+   6.701623800s  INFO prepare_target{force=false package_id=rustls-pemfile v2.2.0 target="rustls_pemfile"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\rustls-pemfile-0cb1e705c4833b15\lib-rustls_pemfile`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   6.707278700s  INFO prepare_target{force=false package_id=tun v0.8.13 target="tun"}: cargo::core::compiler::fingerprint: fingerprint error for tun v0.8.13/Check { test: false }/TargetInner { ..: lib_target("tun", ["staticlib", "lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tun-0.8.13\\src\\lib.rs", Edition2024) }
+   6.707333500s  INFO prepare_target{force=false package_id=tun v0.8.13 target="tun"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\tun-6b863c8d0395eddf\lib-tun`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   6.715141900s  INFO prepare_target{force=false package_id=bytes v1.12.0 target="bytes"}: cargo::core::compiler::fingerprint: fingerprint error for bytes v1.12.0/Check { test: false }/TargetInner { ..: lib_target("bytes", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bytes-1.12.0\\src\\lib.rs", Edition2021) }
+   6.715221600s  INFO prepare_target{force=false package_id=bytes v1.12.0 target="bytes"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\bytes-6737097e9d45ecff\lib-bytes`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   6.720877900s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.4/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.4\\src\\lib.rs", Edition2018) }
+   6.720929300s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\cfg-if-d0202b3c1f745d2b\lib-cfg_if`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   6.727996800s  INFO prepare_target{force=false package_id=thiserror v2.0.18 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v2.0.18/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-2.0.18\\src\\lib.rs", Edition2021) }
+   6.728094000s  INFO prepare_target{force=false package_id=thiserror v2.0.18 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\thiserror-d5e29119257fc56d\lib-thiserror`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   8.072257200s  INFO prepare_target{force=false package_id=wintun-bindings v0.7.39 target="wintun_bindings"}: cargo::core::compiler::fingerprint: fingerprint error for wintun-bindings v0.7.39/Check { test: false }/TargetInner { ..: lib_target("wintun_bindings", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wintun-bindings-0.7.39\\src\\lib.rs", Edition2024) }
+   8.072328200s  INFO prepare_target{force=false package_id=wintun-bindings v0.7.39 target="wintun_bindings"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\wintun-bindings-06b75bfe414960d9\lib-wintun_bindings`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   8.078680500s  INFO prepare_target{force=false package_id=blocking v1.6.2 target="blocking"}: cargo::core::compiler::fingerprint: fingerprint error for blocking v1.6.2/Check { test: false }/TargetInner { ..: lib_target("blocking", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\blocking-1.6.2\\src\\lib.rs", Edition2021) }
+   8.078727700s  INFO prepare_target{force=false package_id=blocking v1.6.2 target="blocking"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\blocking-fe7c9f4a0a2bbec6\lib-blocking`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   8.085453200s  INFO prepare_target{force=false package_id=async-channel v2.5.0 target="async_channel"}: cargo::core::compiler::fingerprint: fingerprint error for async-channel v2.5.0/Check { test: false }/TargetInner { ..: lib_target("async_channel", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\async-channel-2.5.0\\src\\lib.rs", Edition2021) }
+   8.085513300s  INFO prepare_target{force=false package_id=async-channel v2.5.0 target="async_channel"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\async-channel-18e73036688546f1\lib-async_channel`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   8.093284100s  INFO prepare_target{force=false package_id=concurrent-queue v2.5.0 target="concurrent_queue"}: cargo::core::compiler::fingerprint: fingerprint error for concurrent-queue v2.5.0/Check { test: false }/TargetInner { name_inferred: true, benched: false, ..: lib_target("concurrent_queue", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\concurrent-queue-2.5.0\\src\\lib.rs", Edition2021) }
+   8.093341500s  INFO prepare_target{force=false package_id=concurrent-queue v2.5.0 target="concurrent_queue"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\concurrent-queue-2b3c535b4002ddef\lib-concurrent_queue`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   8.099188800s  INFO prepare_target{force=false package_id=crossbeam-utils v0.8.21 target="crossbeam_utils"}: cargo::core::compiler::fingerprint: fingerprint error for crossbeam-utils v0.8.21/Check { test: false }/TargetInner { ..: lib_target("crossbeam_utils", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crossbeam-utils-0.8.21\\src\\lib.rs", Edition2021) }
+   8.099240500s  INFO prepare_target{force=false package_id=crossbeam-utils v0.8.21 target="crossbeam_utils"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\crossbeam-utils-fc7c132a83429473\lib-crossbeam_utils`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   8.321658700s  INFO prepare_target{force=false package_id=event-listener-strategy v0.5.4 target="event_listener_strategy"}: cargo::core::compiler::fingerprint: fingerprint error for event-listener-strategy v0.5.4/Check { test: false }/TargetInner { ..: lib_target("event_listener_strategy", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\event-listener-strategy-0.5.4\\src\\lib.rs", Edition2021) }
+   8.321704400s  INFO prepare_target{force=false package_id=event-listener-strategy v0.5.4 target="event_listener_strategy"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\event-listener-strategy-27c517ab99cc007c\lib-event_listener_strategy`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   8.326902600s  INFO prepare_target{force=false package_id=event-listener v5.4.1 target="event_listener"}: cargo::core::compiler::fingerprint: fingerprint error for event-listener v5.4.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("event_listener", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\event-listener-5.4.1\\src\\lib.rs", Edition2021) }
+   8.326976200s  INFO prepare_target{force=false package_id=event-listener v5.4.1 target="event_listener"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\event-listener-c9e87567ab8f1e76\lib-event_listener`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   8.344287100s  INFO prepare_target{force=false package_id=parking v2.2.1 target="parking"}: cargo::core::compiler::fingerprint: fingerprint error for parking v2.2.1/Check { test: false }/TargetInner { ..: lib_target("parking", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking-2.2.1\\src\\lib.rs", Edition2018) }
+   8.344353800s  INFO prepare_target{force=false package_id=parking v2.2.1 target="parking"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\parking-ed440e00f64a8a44\lib-parking`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   8.353664200s  INFO prepare_target{force=false package_id=pin-project-lite v0.2.17 target="pin_project_lite"}: cargo::core::compiler::fingerprint: fingerprint error for pin-project-lite v0.2.17/Check { test: false }/TargetInner { doc_scrape_examples: Disabled, ..: lib_target("pin_project_lite", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pin-project-lite-0.2.17\\src\\lib.rs", Edition2018) }
+   8.353723800s  INFO prepare_target{force=false package_id=pin-project-lite v0.2.17 target="pin_project_lite"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\pin-project-lite-8884b8def7d7f864\lib-pin_project_lite`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   8.359693600s  INFO prepare_target{force=false package_id=futures-core v0.3.32 target="futures_core"}: cargo::core::compiler::fingerprint: fingerprint error for futures-core v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_core", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-core-0.3.32\\src\\lib.rs", Edition2018) }
+   8.359791000s  INFO prepare_target{force=false package_id=futures-core v0.3.32 target="futures_core"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\futures-core-f9f48c6a9327debb\lib-futures_core`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   8.368006400s  INFO prepare_target{force=false package_id=async-task v4.7.1 target="async_task"}: cargo::core::compiler::fingerprint: fingerprint error for async-task v4.7.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("async_task", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\async-task-4.7.1\\src\\lib.rs", Edition2021) }
+   8.368072600s  INFO prepare_target{force=false package_id=async-task v4.7.1 target="async_task"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\async-task-c2ddd163d51d54e3\lib-async_task`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   8.375231900s  INFO prepare_target{force=false package_id=futures-io v0.3.32 target="futures_io"}: cargo::core::compiler::fingerprint: fingerprint error for futures-io v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_io", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-io-0.3.32\\src\\lib.rs", Edition2018) }
+   8.375303300s  INFO prepare_target{force=false package_id=futures-io v0.3.32 target="futures_io"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\futures-io-4f8c0663ae32559e\lib-futures_io`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   8.383120600s  INFO prepare_target{force=false package_id=futures-lite v2.6.1 target="futures_lite"}: cargo::core::compiler::fingerprint: fingerprint error for futures-lite v2.6.1/Check { test: false }/TargetInner { ..: lib_target("futures_lite", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-lite-2.6.1\\src\\lib.rs", Edition2021) }
+   8.383180100s  INFO prepare_target{force=false package_id=futures-lite v2.6.1 target="futures_lite"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\futures-lite-9c184ebf55990903\lib-futures_lite`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   8.389081500s  INFO prepare_target{force=false package_id=piper v0.2.5 target="piper"}: cargo::core::compiler::fingerprint: fingerprint error for piper v0.2.5/Check { test: false }/TargetInner { ..: lib_target("piper", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\piper-0.2.5\\src\\lib.rs", Edition2018) }
+   8.389125700s  INFO prepare_target{force=false package_id=piper v0.2.5 target="piper"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\piper-a1b3ed3adc909645\lib-piper`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   8.396685300s  INFO prepare_target{force=false package_id=atomic-waker v1.1.2 target="atomic_waker"}: cargo::core::compiler::fingerprint: fingerprint error for atomic-waker v1.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("atomic_waker", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\atomic-waker-1.1.2\\src\\lib.rs", Edition2018) }
+   8.396784200s  INFO prepare_target{force=false package_id=atomic-waker v1.1.2 target="atomic_waker"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\atomic-waker-ad4f3812b16c8374\lib-atomic_waker`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   8.402389300s  INFO prepare_target{force=false package_id=fastrand v2.4.1 target="fastrand"}: cargo::core::compiler::fingerprint: fingerprint error for fastrand v2.4.1/Check { test: false }/TargetInner { ..: lib_target("fastrand", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\fastrand-2.4.1\\src\\lib.rs", Edition2018) }
+   8.402448100s  INFO prepare_target{force=false package_id=fastrand v2.4.1 target="fastrand"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\fastrand-632913bec1f0556a\lib-fastrand`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   8.407304700s  INFO prepare_target{force=false package_id=futures v0.3.32 target="futures"}: cargo::core::compiler::fingerprint: fingerprint error for futures v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-0.3.32\\src\\lib.rs", Edition2018) }
+   8.407363200s  INFO prepare_target{force=false package_id=futures v0.3.32 target="futures"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\futures-c4913a11cde22901\lib-futures`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   8.413234600s  INFO prepare_target{force=false package_id=futures-channel v0.3.32 target="futures_channel"}: cargo::core::compiler::fingerprint: fingerprint error for futures-channel v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_channel", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-channel-0.3.32\\src\\lib.rs", Edition2018) }
+   8.413302400s  INFO prepare_target{force=false package_id=futures-channel v0.3.32 target="futures_channel"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\futures-channel-7f445aac1b3d06c7\lib-futures_channel`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   8.419472100s  INFO prepare_target{force=false package_id=futures-sink v0.3.32 target="futures_sink"}: cargo::core::compiler::fingerprint: fingerprint error for futures-sink v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_sink", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-sink-0.3.32\\src\\lib.rs", Edition2018) }
+   8.419523200s  INFO prepare_target{force=false package_id=futures-sink v0.3.32 target="futures_sink"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\futures-sink-888501080d102f85\lib-futures_sink`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   8.425468400s  INFO prepare_target{force=false package_id=futures-executor v0.3.32 target="futures_executor"}: cargo::core::compiler::fingerprint: fingerprint error for futures-executor v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_executor", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-executor-0.3.32\\src\\lib.rs", Edition2018) }
+   8.425593400s  INFO prepare_target{force=false package_id=futures-executor v0.3.32 target="futures_executor"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\futures-executor-f063b39ad80a7e28\lib-futures_executor`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   8.434185400s  INFO prepare_target{force=false package_id=futures-task v0.3.32 target="futures_task"}: cargo::core::compiler::fingerprint: fingerprint error for futures-task v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_task", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-task-0.3.32\\src\\lib.rs", Edition2018) }
+   8.434246500s  INFO prepare_target{force=false package_id=futures-task v0.3.32 target="futures_task"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\futures-task-512ba1d13d39bb9d\lib-futures_task`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   8.441335500s  INFO prepare_target{force=false package_id=futures-util v0.3.32 target="futures_util"}: cargo::core::compiler::fingerprint: fingerprint error for futures-util v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_util", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-util-0.3.32\\src\\lib.rs", Edition2018) }
+   8.441440200s  INFO prepare_target{force=false package_id=futures-util v0.3.32 target="futures_util"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\futures-util-df27381132224db9\lib-futures_util`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   8.530126600s  INFO prepare_target{force=false package_id=slab v0.4.12 target="slab"}: cargo::core::compiler::fingerprint: fingerprint error for slab v0.4.12/Check { test: false }/TargetInner { ..: lib_target("slab", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\slab-0.4.12\\src\\lib.rs", Edition2018) }
+   8.530173700s  INFO prepare_target{force=false package_id=slab v0.4.12 target="slab"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\slab-4ee8da302cb1f6a6\lib-slab`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   8.534987100s  INFO prepare_target{force=false package_id=libloading v0.9.0 target="libloading"}: cargo::core::compiler::fingerprint: fingerprint error for libloading v0.9.0/Check { test: false }/TargetInner { ..: lib_target("libloading", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libloading-0.9.0\\src\\lib.rs", Edition2021) }
+   8.535030000s  INFO prepare_target{force=false package_id=libloading v0.9.0 target="libloading"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\libloading-b7ca458b6a880ba5\lib-libloading`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   8.541552100s  INFO prepare_target{force=false package_id=webpki-roots v0.26.11 target="webpki_roots"}: cargo::core::compiler::fingerprint: fingerprint error for webpki-roots v0.26.11/Check { test: false }/TargetInner { ..: lib_target("webpki_roots", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\webpki-roots-0.26.11\\src\\lib.rs", Edition2021) }
+   8.541602700s  INFO prepare_target{force=false package_id=webpki-roots v0.26.11 target="webpki_roots"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\webpki-roots-f79abe07acc3cd74\lib-webpki_roots`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   8.547098300s  INFO prepare_target{force=false package_id=webpki-roots v1.0.8 target="webpki_roots"}: cargo::core::compiler::fingerprint: fingerprint error for webpki-roots v1.0.8/Check { test: false }/TargetInner { ..: lib_target("webpki_roots", ["lib"], "C:\\Users\\34979\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\webpki-roots-1.0.8\\src\\lib.rs", Edition2021) }
+   8.547155600s  INFO prepare_target{force=false package_id=webpki-roots v1.0.8 target="webpki_roots"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\webpki-roots-1abff676a9fc9f7a\lib-webpki_roots`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   8.552921700s  INFO prepare_target{force=false package_id=minivpn v0.1.0 (\\wsl$\Ubuntu\home\lll\minivpn) target="minivpn"}: cargo::core::compiler::fingerprint: fingerprint error for minivpn v0.1.0 (\\wsl$\Ubuntu\home\lll\minivpn)/Check { test: true }/TargetInner { name: "minivpn", doc: true, ..: with_path("\\\\wsl$\\Ubuntu\\home\\lll\\minivpn\\src\\main.rs", Edition2021) }
+   8.552980600s  INFO prepare_target{force=false package_id=minivpn v0.1.0 (\\wsl$\Ubuntu\home\lll\minivpn) target="minivpn"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl$\Ubuntu\home\lll\minivpn\target\debug\.fingerprint\minivpn-e1fc980fba011ce2\test-bin-minivpn`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking memchr v2.8.2
+    Checking pin-project-lite v0.2.17
+    Checking windows-link v0.2.1
+    Checking futures-core v0.3.32
+    Checking windows-sys v0.61.2
+    Checking futures-io v0.3.32
+    Checking zeroize v1.9.0
+    Checking crossbeam-utils v0.8.21
+    Checking parking v2.2.1
+    Checking futures-sink v0.3.32
+    Checking concurrent-queue v2.5.0
+    Checking rustls-pki-types v1.14.1
+    Checking once_cell_polyfill v1.70.2
+    Checking log v0.4.32
+    Checking futures-channel v0.3.32
+    Checking futures-task v0.3.32
+    Checking utf8parse v0.2.2
+    Checking anstyle v1.0.14
+    Checking slab v0.4.12
+    Checking event-listener v5.4.1
+    Checking futures-util v0.3.32
+    Checking anstyle-parse v1.0.0
+    Checking aho-corasick v1.1.4
+    Checking fastrand v2.4.1
+    Checking colorchoice v1.0.5
+    Checking is_terminal_polyfill v1.70.2
+    Checking regex-syntax v0.8.11
+    Checking atomic-waker v1.1.2
+    Checking aws-lc-sys v0.41.0
+    Checking futures-lite v2.6.1
+    Checking async-task v4.7.1
+    Checking event-listener-strategy v0.5.4
+    Checking piper v0.2.5
+    Checking thiserror v2.0.18
+    Checking libloading v0.9.0
+    Checking aws-lc-rs v1.17.0
+    Checking untrusted v0.9.0
+    Checking clap_lex v1.1.0
+    Checking regex-automata v0.4.14
+    Checking strsim v0.11.1
+    Checking libc v0.2.186
+    Checking webpki-roots v1.0.8
+    Checking bytes v1.12.0
+    Checking async-channel v2.5.0
+    Checking subtle v2.6.1
+    Checking jiff v0.2.28
+    Checking once_cell v1.21.4
+    Checking cfg-if v1.0.4
+    Checking arrayvec v0.7.6
+    Checking webpki-roots v0.26.11
+    Checking anyhow v1.0.102
+    Checking rustls-pemfile v2.2.0
+    Checking etherparse v0.13.0
+    Checking rustls-webpki v0.103.13
+    Checking blocking v1.6.2
+    Checking futures-executor v0.3.32
+    Checking rustls v0.23.40
+    Checking regex v1.12.4
+    Checking futures v0.3.32
+    Checking env_filter v1.0.1
+    Checking anstyle-query v1.1.5
+    Checking anstyle-wincon v3.0.11
+    Checking wintun-bindings v0.7.39
+    Checking anstream v1.0.0
+    Checking clap_builder v4.6.0
+    Checking env_logger v0.11.10
+    Checking tun v0.8.13
+    Checking clap v4.6.1
+    Checking minivpn v0.1.0 (\\wsl$\Ubuntu\home\lll\minivpn)
+error: could not compile `minivpn` (bin "minivpn" test) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `minivpn` (bin "minivpn") due to 1 previous error

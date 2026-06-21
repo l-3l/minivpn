@@ -1,0 +1,4 @@
+CARGO_TARGET_DIR: '\\wsl$\Ubuntu\home\lll\minivpn\target\debug'
+Source path: 'C:\Users\34979\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wintun-bindings-0.7.39\wintun/bin/amd64/wintun.dll'
+Target path: '\\wsl$\Ubuntu\home\lll\minivpn\target\debug\wintun.dll'
+Copied 'wintun.dll' to '\\wsl$\Ubuntu\home\lll\minivpn\target\debug\wintun.dll'

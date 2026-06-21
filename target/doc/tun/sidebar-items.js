@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["DEFAULT_MTU","PACKET_INFORMATION_LENGTH"],"enum":["Error","Layer"],"fn":["configure","create"],"struct":["Configuration","Device","PlatformConfig","Reader","Writer"],"trait":["AbstractDevice","ToAddress"],"type":["BoxError","Result"]};
